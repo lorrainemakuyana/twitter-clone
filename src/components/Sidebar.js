@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/sidebar.css'
+import '../styles/Sidebar.css'
 import SidebarOption from './SidebarOption'
 
 // Import icons 
@@ -27,7 +27,7 @@ function Sidebar() {
             <SidebarOption text="Profile" Icon={PermIdentityIcon} />
             <SidebarOption text="More" Icon={MoreHorizIcon} />
 
-            <Button variant="outlined" className="sidebar__tweet" fullWidth>Tweet</Button>
+            <Button variant="outlined" className="sidebar__tweetButton" fullWidth>Tweet</Button>
         </div>
     )
 }
